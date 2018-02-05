@@ -1,7 +1,6 @@
 cmake_minimum_required(VERSION 3.2)
 
-#project(print_ip VERSION 0.0.$ENV{TRAVIS_BUILD_NUMBER})
-project(print_ip VERSION 0.0.1)
+project(print_ip VERSION 0.0.$ENV{TRAVIS_BUILD_NUMBER})
 
 configure_file(version.h.in version.h)
 
