@@ -3,6 +3,8 @@ before_script:
 - sudo apt-get install graphviz
 - sudo apt-get install doxygen
 script:
+- mkdir doc
+- mkdir doc/html
 - cmake .
 - cmake --build .
 - cmake --build . --target package
