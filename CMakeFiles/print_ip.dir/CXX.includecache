@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/travis/build/SergeyTyurin/Homework4/main.cpp
+vector
+-
+list
+-
+tuple
+-
+print.h
+/home/travis/build/SergeyTyurin/Homework4/print.h
+
+/home/travis/build/SergeyTyurin/Homework4/print.h
+iostream
+-
+type_traits
+-
+bitset
+-
+utility
+-
+type_check.h
+/home/travis/build/SergeyTyurin/Homework4/type_check.h
+
+/home/travis/build/SergeyTyurin/Homework4/type_check.h
+
